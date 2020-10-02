@@ -1,0 +1,260 @@
+* {
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e5eff5;
+}
+
+body main {
+  width: 900px;
+  height: 660px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+body main .join {
+  padding: 40px 70px;
+}
+
+body main .join h1 {
+  color: #2ab2af;
+  font-size: 32px;
+}
+
+body main .join h2 {
+  color: #c0df34;
+}
+
+body main .join p {
+  color: #98a6bd;
+  font-size: 21px;
+}
+
+body main .bottom-container {
+  height: 351px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+body main .bottom-container .subscription {
+  padding: 25px 70px;
+  border-bottom-left-radius: 10px;
+  background-color: #2ab2af;
+  color: #e5eff5;
+}
+
+body main .bottom-container .subscription h2 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+body main .bottom-container .subscription .price {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .bottom-container .subscription .price h3 {
+  font-size: 44px;
+  margin-right: 12px;
+}
+
+body main .bottom-container .subscription .price span {
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+body main .bottom-container .subscription p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+body main .bottom-container .subscription button {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c0df34;
+  color: #e5eff5;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+body main .bottom-container .subscription button:hover {
+  background-color: #b9d53f;
+}
+
+body main .bottom-container .why {
+  border-bottom-right-radius: 10px;
+  background-color: #4ABEBD;
+  color: #e5eff5;
+  padding: 35px 70px;
+}
+
+body main .bottom-container .why ul {
+  padding: 0;
+}
+
+body main .bottom-container .why ul li {
+  list-style: none;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 950px) {
+  body main {
+    width: 700px;
+    height: 678px;
+  }
+  body main .bottom-container {
+    height: 260px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  body main .bottom-container .subscription {
+    padding: 20px 35px;
+  }
+  body main .bottom-container .subscription .price {
+    height: 50px;
+  }
+  body main .bottom-container .subscription .price h3 {
+    font-size: 40px;
+    margin-right: 12px;
+  }
+  body main .bottom-container .subscription .price span {
+    opacity: 0.7;
+    font-size: 17px;
+  }
+  body main .bottom-container .subscription p {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  body main .bottom-container .subscription button {
+    margin-top: 30px;
+    width: 260px;
+    height: 45px;
+  }
+  body main .bottom-container .why {
+    padding: 25px 50px;
+  }
+  body main .bottom-container .why ul {
+    padding: 0;
+  }
+  body main .bottom-container .why ul li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #e5eff5;
+    overflow-x: hidden;
+  }
+  body main {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+  }
+  body main .join {
+    padding: 40px 10%;
+  }
+  body main .bottom-container {
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  body main .bottom-container .subscription {
+    padding: 25px 30%;
+    border-bottom-left-radius: 0;
+  }
+  body main .bottom-container .why {
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 35px 30%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body main {
+    margin-top: 10px;
+    width: 95%;
+    height: auto;
+  }
+  body main .join {
+    padding: 40px 10%;
+  }
+  body main .bottom-container .subscription {
+    padding: 25px 20%;
+  }
+  body main .bottom-container .why {
+    padding: 35px 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body main {
+    margin-top: 10px;
+    width: 94%;
+    height: auto;
+  }
+  body main .join {
+    padding: 30px 9%;
+  }
+  body main .join h1 {
+    font-size: 24px;
+  }
+  body main .join h2 {
+    font-size: 18px;
+  }
+  body main .join p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  body main .bottom-container .subscription {
+    padding: 25px 10%;
+  }
+  body main .bottom-container .why {
+    padding: 35px 12%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
